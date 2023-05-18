@@ -163,13 +163,20 @@ cursor: pointer;
 }
 
 .submitButton {
-border: none;
-background-color: #f5f5f5;
+border: 1px solid #131111;
+background-color: rgb(199, 195, 195);
 margin-right: 30px;
+border-radius: 5px;
 }
 .cancelButton {
  text-decoration: none;
+ background-color:rgb(199, 195, 195);
 text-align: center;
+border-radius: 5px;
+}
+.resetButton{
+    background-color: rgb(199, 195, 195);
+    border-radius: 5px;
 }
 
 @media only screen and(max-width: 960px){
@@ -205,6 +212,7 @@ flex-flow: wrap;
    flex-direction: row-reverse;
    justify-content: space-between;
    margin-bottom: 20px;
+   
 }
 
 .submitButton {
@@ -373,7 +381,8 @@ margin: 0;
                             
                             <div class="buttonParent">
                             <a href="./home.html" class="resetButton button cancelButton">Cancel</a> <div class="submit-reset">
-                            <button type="submit" class="button submitButton" id="submitButton">Submit</button> <button type="reset" class="resetButton button">Reset</button>
+                            <button type="submit" class="button submitButton" id="submitButton">Submit</button> 
+                            <button type="reset" class="resetButton button">Reset</button>
                             </div>
                            </div>
             </div>
